@@ -110,9 +110,11 @@
 .juju p {
     font-size: 20px;
 }
-
+.tect {
+    max-width: 100%;
+}
 .tect img {
-    width: 30vw;
+    width: 100%;
 }
 
 .car h2 {
@@ -128,22 +130,28 @@
 
 .fold {
     background: url(../img/sone.jpg) no-repeat center/cover;
-    width: 5vw;
-    padding: 220px;
+    padding: 35px;
 }
 .lop {
     background: url(../img/mountain.avif) no-repeat center/cover;
-    width: 5vw;
-    padding: 220px;
+    padding: 35px;
     
 }
 .poplo {
     background: url(../img/tect.jpg) no-repeat center/cover;
-    width: 5vw;
-    padding: 220px;
+    padding: 35px;
 }
 .lopatka {
     background: url(../img/mercedesglc.jpg) no-repeat center/cover;
-    width: 5vw;
-    padding: 220px;
+    padding: 35px;
+    height: 450px;
+    color:#fff;
+}
+.tect {
+    display: flex;
+    justify-content: space-between;
+    gap:30px;
+}
+.rep {
+border-left: 1px solid grey;
 }
