@@ -16,52 +16,92 @@
     color: beige;
 }
 
-.footer {
-    display: flex;
-    justify-content: space-between;
-    background-color: black;
-    color: aliceblue;
-}
 
 .inf {
     display: flex;
     justify-content: space-between;
     gap: 30px;
 }
-
 .cards {
     display: flex;
     justify-content: space-between;
-}
 
+}
+.cards img {
+    width: 100%;
+}
 .cardss {
     display: flex;
     justify-content: space-between;
     gap: 30px;
 }
 .hhh {
-    background: url(../img/mercedes_benz.avif)center no-repeat;
-    width: 1650px;
-    height: 600px;
+    background: url(../img/mercedes_benz.avif) no-repeat center/cover ;
+  height: 70vh;
 }
 .geri {
     color:#fff;
     border: 1px solid blue;
-    width: 200px;
-    height: 60px;
-    border-radius: 40%;
+    border-radius: 30%;
     background-color: blue;
     text-align: center;
+    max-width: 120px;
+    padding: 10px;
 }
 .hhh a {
     display: flex;
     justify-content:flex-start;
 }
 .feri {
-    border: 1px solid ;
-    width: 200px;
-    height: 60px;
-    border-radius: 60%;
+    border: 1px solid #fff ;
+   max-width: 120px;
+    border-radius: 30%;
     text-align: center;
-    padding: 1px;
+    padding: 10px;
+    color:#fff;
+
 }
+.footerwrapper {
+    background-color: black;
+    gap:30px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color:white;
+}
+.geri p{
+    color:#fff;
+}
+.blue a {
+max-width: 120px;
+padding: 10px;
+background-color: blue;
+border-radius: 30%;
+}
+.tutu  {
+background: url(../img/bluecar.jpg) no-repeat center/cover ;
+}
+.juju  h3 {
+    padding: 10px;
+    font-size:  30px;
+}
+.juju p {  
+    font-size: 20px;
+}
+.tect img {
+width: 30vw;
+}
+.car h2 {
+padding: 20px;
+}
+.car ul {
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid grey;
+}
+
