@@ -96,6 +96,10 @@
 
 .tutu {
     background: url(../img/bluecar.jpg) no-repeat center/cover;
+    min-height: 70vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color:#fff;
 }
 
 .juju h3 {
