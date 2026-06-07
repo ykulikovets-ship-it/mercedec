@@ -4,6 +4,7 @@
     padding: 0;
     text-decoration: none;
 }
+
 body {
     text-decoration: none;
 }
@@ -45,32 +46,33 @@ body {
 
 .hhh {
     background: url(../img/mercedes_benz.avif) no-repeat center/cover;
+    width: 100%;
     height: 70vh;
+    display: flex;
+    align-items: center;
 }
 
 .geri {
+    display: block;
     color: #fff;
-    border: 1px solid blue;
-    border-radius: 30%;
-    background-color: blue;
+    border: 1px solid #0078d6;
+    border-radius: 35px;
+    background-color: #0078d6;
     text-align: center;
-    max-width: 120px;
     padding: 10px;
-}
-
-.hhh a {
-    display: flex;
-    justify-content: flex-start;
+    font-size: 18px;
+    width: 100%;
 }
 
 .feri {
+    display: block;
     border: 1px solid #fff;
-    max-width: 120px;
-    border-radius: 30%;
+    border-radius: 35px;
     text-align: center;
     padding: 10px;
     color: #fff;
-
+    width: 100%;
+    font-size: 18px;
 }
 
 .footerwrapper {
@@ -84,7 +86,7 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: black;
-    color:#fff ;
+    color: #fff;
 }
 
 .geri p {
@@ -103,7 +105,7 @@ body {
     min-height: 70vh;
     margin-top: 50px;
     margin-bottom: 50px;
-    color:#fff;
+    color: #fff;
 }
 
 .juju h3 {
@@ -114,9 +116,11 @@ body {
 .juju p {
     font-size: 20px;
 }
+
 .tect {
     max-width: 100%;
 }
+
 .tect img {
     width: 100%;
 }
@@ -136,41 +140,88 @@ body {
     background: url(../img/sone.jpg) no-repeat center/cover;
     padding: 35px;
 }
+
 .lop {
     background: url(../img/mountain.avif) no-repeat center/cover;
     padding: 35px;
-    
+
 }
+
 .poplo {
     background: url(../img/tect.jpg) no-repeat center/cover;
     padding: 35px;
 }
+
 .lopatka {
     background: url(../img/mercedesglc.jpg) no-repeat center/cover;
     padding: 35px;
     height: 450px;
-    color:#fff;
+    color: #fff;
 }
+
 .tect {
     display: flex;
     justify-content: space-between;
-    gap:30px;
+    gap: 30px;
 }
+
 .rep {
-border-left: 1px solid grey;
+    border-left: 1px solid grey;
 }
+
 .about {
     background: url(../img/road.png) no-repeat center/cover;
     padding: 35px;
     max-width: 450px;
-     height: 150px;  
-     font-size: 45px;
-     text-align: center;
+    height: 150px;
+    font-size: 45px;
+    text-align: center;
 }
+
 .about img {
-    width:100px;    
-                          
+    width: 100px;
+
 }
+
 .about a {
-    color:#fff;
+    color: #fff;
+}
+
+.coc {
+    background: url(../img/people.jpg) no-repeat center/cover;
+    padding: 35px;
+    max-width: 450px;
+    height: 150px;
+    font-size: 45px;
+    text-align: center;
+    margin: 35px;
+}
+
+.coc img {
+    width: 100px;
+}
+
+.coc a {
+    color: #fff;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 50px;
+}
+
+.foooter a {
+    color: white;
+}
+
+.full {
+    display: flex;
+    align-items: center;
+}
+.hhh p{
+color: #fff;
+font-size: 18px;
+padding: 23px;
 }
