@@ -219,9 +219,81 @@ h1 {
 .full {
     display: flex;
     align-items: center;
+    gap: 15px;
 }
 .hhh p{
 color: #fff;
 font-size: 18px;
 padding: 23px;
+}
+.inf {
+    flex-wrap: wrap;
+}
+.inf a {
+    color:#fff;
+}
+.footer a {
+    color:#fff;
+}
+.footer {
+display: flex;
+justify-content: space-between;
+}
+.ggggg {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 45px;
+}
+.ggggg a {
+    color: #fff;
+}
+.huta img {
+    max-width:52px;
+    height: 52px;
+}
+.huta {
+    max-width: 52px;
+    max-height: 52px;
+}
+.polok {
+    display: flex;
+  justify-content: space-between;
+    max-width: 150px;
+    gap: 30px;
+}
+.geri:hover {
+   background-color: darkblue;
+   transition: 1s;
+   border: 1px solid darkblue;
+}
+.feri:hover {
+    background-color:darkgray;
+    transition: 1s;
+    border: 1px solid darkgray;
+}
+.tutu a {
+    border: 1px solid #0078d6 ;
+    background-color: #0078d6;
+    font-size:20px;
+    border-radius: 35px;
+    padding: 3px;
+}
+.tutu {
+    font-size: 27px;
+}
+.tery {
+    border: 1px solid grey;
+}
+.jojo {
+    border: 1px solid grey;
+}
+.dora {
+    border: 1px solid grey;
+}
+.lola {
+    border: 1px solid grey;
+}
+.tutu a {
+    color:#fff;
 }
