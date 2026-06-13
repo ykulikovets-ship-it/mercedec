@@ -17,7 +17,7 @@ body {
 
 .ggg {
     display: flex;
-    justify-content:flex-start;
+    justify-content: flex-start;
     color: beige;
     gap: 20px;
 }
@@ -170,15 +170,6 @@ body {
     border-left: 1px solid grey;
 }
 
-.about {
-    background: url(../img/road.png) no-repeat center/cover;
-    padding: 35px;
-    max-width: 450px;
-    height: 150px;
-    font-size: 45px;
-    text-align: center;
-}
-
 .about img {
     width: 100px;
 
@@ -222,79 +213,183 @@ h1 {
     align-items: center;
     gap: 15px;
 }
-.hhh p{
-color: #fff;
-font-size: 18px;
-padding: 23px;
+
+.hhh p {
+    color: #fff;
+    font-size: 18px;
+    padding: 23px;
 }
+
 .inf {
     flex-wrap: wrap;
 }
+
 .inf a {
-    color:#fff;
+    color: #fff;
 }
+
 .footer a {
-    color:#fff;
+    color: #fff;
 }
+
 .footer {
-display: flex;
-justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
+
 .ggggg {
     display: flex;
     justify-content: space-between;
     background-color: black;
     padding: 45px;
 }
+
 .ggggg a {
     color: #fff;
 }
+
 .huta img {
-    max-width:52px;
+    max-width: 52px;
     height: 52px;
 }
+
 .huta {
     max-width: 52px;
     max-height: 52px;
 }
+
 .polok {
     display: flex;
-  justify-content: space-between;
+    justify-content: space-between;
     max-width: 150px;
     gap: 30px;
 }
+
 .geri:hover {
-   background-color: darkblue;
-   transition: 1s;
-   border: 1px solid darkblue;
+    background-color: darkblue;
+    transition: 1s;
+    border: 1px solid darkblue;
 }
+
 .feri:hover {
-    background-color:darkgray;
+    background-color: darkgray;
     transition: 1s;
     border: 1px solid darkgray;
 }
+
 .tutu a {
-    border: 1px solid #0078d6 ;
+    border: 1px solid #0078d6;
     background-color: #0078d6;
-    font-size:20px;
+    font-size: 20px;
     border-radius: 35px;
     padding: 3px;
 }
+
 .tutu {
     font-size: 27px;
 }
+
 .tery {
     border: 1px solid grey;
+    max-width: 350px;
 }
+
 .jojo {
     border: 1px solid grey;
+    max-width: 350px;
 }
+
 .dora {
     border: 1px solid grey;
+    max-width: 350px;
 }
+
 .lola {
     border: 1px solid grey;
+    max-width: 350px;
 }
+
 .tutu a {
-    color:#fff;
+    color: #fff;
+}
+
+.cardss img {
+    max-width: 350px;
+}
+
+.loyer a {
+    color: blue;
+    border: 1px solid grey;
+    padding: 1px;
+}
+
+.loyer a:hover {
+    color: #fff;
+    border: 1px solid blue;
+    background-color: blue;
+}
+
+.loyer a {
+    color: blue;
+    border: 1px solid grey;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+}
+
+.koko a:hover {
+    color: #fff;
+    border: 1px solid blue;
+    background-color: blue;
+}
+
+.koko a {
+    border: 1px solid grey;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    padding: 1px;
+}
+
+.wesy a {
+    border: 1px solid grey;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    padding: 1px;
+   
+}
+.wesy a:hover {
+      border: 1px solid blue;
+    color: #fff;
+    padding: 1px;
+     background-color: blue;
+  
+}
+
+.yupy a {
+    border: 1px solid grey;
+    color: blue;
+    display: flex;
+    justify-content: center;
+    padding: 1px;
+}
+.yupy a:hover {
+      border: 1px solid blue;
+    color: #fff;
+    padding: 1px;
+     background-color: blue;
+}
+.about h2{
+font-size: 45px;
+padding: 10px;
+}
+.ere {
+    font-size: 18px;
+}
+.car a{
+color: grey;
+}
+.cards a {
+color: blue;
 }
