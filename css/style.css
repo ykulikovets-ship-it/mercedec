@@ -6,14 +6,17 @@
 }
 
 body {
-    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
 }
 
-.header {
+header {
     background-color: black;
 
 }
-
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
 
 .ggg {
     display: flex;
@@ -22,7 +25,17 @@ body {
     gap: 20px;
 }
 
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
 
+.items-center {
+    align-items: center;
+}
+.header_line {
+    padding: 15px 0
+}
 .inf {
     display: flex;
     justify-content: space-between;
@@ -83,7 +96,7 @@ body {
     justify-content: space-between;
 }
 
-.footer {
+footer {
     display: flex;
     justify-content: space-between;
     background-color: black;
@@ -136,7 +149,23 @@ body {
     justify-content: space-between;
     border: 1px solid grey;
 }
+.card_rec figure {
+    padding: 20px 10px;
+    height: 90%;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(4px);
+}
+.card_rec figcaption{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
 
+.card_rec h3 {
+    font-size: 28px;
+    text-transform: uppercase;
+}
 .fold {
     background: url(../img/sone.jpg) no-repeat center/cover;
     padding: 35px;
@@ -204,7 +233,7 @@ h1 {
     font-size: 50px;
 }
 
-.foooter a {
+footer a{
     color: white;
 }
 
@@ -212,12 +241,13 @@ h1 {
     display: flex;
     align-items: center;
     gap: 15px;
+    max-width: 40%;
 }
 
 .hhh p {
     color: #fff;
     font-size: 18px;
-    padding: 23px;
+    padding: 23px 0;
 }
 
 .inf {
@@ -227,12 +257,7 @@ h1 {
 .inf a {
     color: #fff;
 }
-
-.footer a {
-    color: #fff;
-}
-
-.footer {
+footer {
     display: flex;
     justify-content: space-between;
 }
@@ -259,8 +284,6 @@ h1 {
 }
 
 .polok {
-    display: flex;
-    justify-content: space-between;
     max-width: 150px;
     gap: 30px;
 }
@@ -288,7 +311,18 @@ h1 {
 .tutu {
     font-size: 27px;
 }
-
+.tutu div {
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   gap: 30px;
+   min-height: 70vh;
+}
+.tutu a {
+    padding: 5px;
+    text-align: center;
+    max-width: 370px;
+}
 .tery {
     border: 1px solid grey;
     max-width: 350px;
@@ -392,4 +426,50 @@ color: grey;
 }
 .cards a {
 color: blue;
+}
+.red {
+    border: 1px solid #0078d6 ;
+    width: 110px;
+    background-color: #0078d6;
+    color: #fff;
+    padding:5px;
+       font-size: 20px;
+    border-radius: 35px;
+    margin: 20px;
+}
+.red a {
+    color: #fff;
+}
+.ere {
+    color: rgb(83, 80, 80);
+}
+.gut {
+    margin: 13px;
+}
+.yut {
+    margin: 13px;
+}
+.red:hover {
+    background-color: darkblue;
+    border: 1px solid darkblue;
+    transition:1s;
+}
+.text {
+    margin: 13px;
+}
+.car h2 {
+font-size: 35px;
+}
+.cards h2  {
+ text-align: center;
+}
+.rex {
+    padding: 0px 75px;
+}
+.rex h3 {  
+    padding: 6px 0px;
+}
+.cards a {
+     display: block;
+     text-align: center;
 }
