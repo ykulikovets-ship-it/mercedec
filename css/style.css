@@ -13,6 +13,7 @@ header {
     background-color: black;
 
 }
+
 .wrapper {
     width: 90%;
     margin: 0 auto;
@@ -33,9 +34,11 @@ header {
 .items-center {
     align-items: center;
 }
+
 .header_line {
     padding: 15px 0
 }
+
 .inf {
     display: flex;
     justify-content: space-between;
@@ -149,13 +152,15 @@ footer {
     justify-content: space-between;
     border: 1px solid grey;
 }
+
 .card_rec figure {
     padding: 20px 10px;
     height: 90%;
     background: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(4px);
 }
-.card_rec figcaption{
+
+.card_rec figcaption {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -166,6 +171,7 @@ footer {
     font-size: 28px;
     text-transform: uppercase;
 }
+
 .fold {
     background: url(../img/sone.jpg) no-repeat center/cover;
     padding: 35px;
@@ -233,7 +239,7 @@ h1 {
     font-size: 50px;
 }
 
-footer a{
+footer a {
     color: white;
 }
 
@@ -257,6 +263,7 @@ footer a{
 .inf a {
     color: #fff;
 }
+
 footer {
     display: flex;
     justify-content: space-between;
@@ -311,18 +318,21 @@ footer {
 .tutu {
     font-size: 27px;
 }
+
 .tutu div {
     display: flex;
     flex-direction: column;
-   justify-content: center;
-   gap: 30px;
-   min-height: 70vh;
+    justify-content: center;
+    gap: 30px;
+    min-height: 70vh;
 }
+
 .tutu a {
     padding: 5px;
     text-align: center;
     max-width: 370px;
 }
+
 .tery {
     border: 1px solid grey;
     max-width: 350px;
@@ -391,14 +401,15 @@ footer {
     display: flex;
     justify-content: center;
     padding: 1px;
-   
+
 }
+
 .wesy a:hover {
-      border: 1px solid blue;
+    border: 1px solid blue;
     color: #fff;
     padding: 1px;
-     background-color: blue;
-  
+    background-color: blue;
+
 }
 
 .yupy a {
@@ -408,76 +419,95 @@ footer {
     justify-content: center;
     padding: 1px;
 }
+
 .yupy a:hover {
-      border: 1px solid blue;
+    border: 1px solid blue;
     color: #fff;
     padding: 1px;
-     background-color: blue;
+    background-color: blue;
 }
-.about h2{
-font-size: 45px;
-padding: 10px;
+
+.about h2 {
+    font-size: 45px;
+    padding: 10px;
 }
+
 .ere {
     font-size: 17px;
 }
-.car a{
-color: grey;
+
+.car a {
+    color: grey;
 }
+
 .cards a {
-color: blue;
+    color: blue;
 }
+
 .red {
-    border: 1px solid #0078d6 ;
+    border: 1px solid #0078d6;
     width: 140px;
     background-color: #0078d6;
     color: #fff;
-    padding:5px;
-       font-size: 20px;
+    padding: 5px;
+    font-size: 20px;
     border-radius: 35px;
     margin: 20px;
     text-align: center;
 }
+
 .red a {
     color: #fff;
 }
+
 .ere {
     color: rgb(83, 80, 80);
 }
+
 .gut {
     margin: 13px;
 }
+
 .yut {
     margin: 13px;
 }
+
 .red:hover {
     background-color: darkblue;
     border: 1px solid darkblue;
-    transition:1s;
+    transition: 1s;
 }
+
 .text {
     margin: 13px;
 }
+
 .car h2 {
-font-size: 35px;
+    font-size: 35px;
 }
-.cards h2  {
- text-align: center;
+
+.cards h2 {
+    text-align: center;
 }
+
 .rex {
     padding: 0px 75px;
 }
-.rex h3 {  
+
+.rex h3 {
     padding: 8px 0px;
     font-size: 25px;
 }
+
 .cards a {
-     display: block;
-     text-align: center;
+    display: block;
+    text-align: center;
 }
+
 h3 {
     color: black;
 }
+
 .card_rec a {
     border: 1px solid #0078d6;
     background-color: #0078d6;
@@ -486,27 +516,47 @@ h3 {
     color: #fff;
     padding: 10px;
 }
+
 .card_rec a:hover {
     background-color: darkblue;
     border: 1px solid darkblue;
     transition: 1s;
 }
+
 .rex p {
     padding: 10px;
 }
+
 .tutu h3 {
-    color:#fff;
+    color: #fff;
 }
-.cardss a{
-color:black;
+
+.cardss a {
+    color: black;
 }
+
 .vovo a {
     color: #0078d6;
 }
+
 footer h3 {
     color: #fff;
     padding: 8px 50px;
-} 
+}
+
 footer ul {
     padding: 50px;
 }
+footer li {
+ padding: 5px;
+}
+.vovo {
+ border: 0.01 solid grey;
+}    
+.huk {
+    color: #0078d6;
+    font-size: 20px;
+}        
+.kol a:hover {
+    color: #0078d6;
+}                                       
