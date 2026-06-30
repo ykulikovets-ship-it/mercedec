@@ -559,4 +559,9 @@ footer li {
 }        
 .kol a:hover {
     color: #0078d6;
-}                                       
+}       
+.tutu a:hover{
+background-color: darkblue;
+border:  1px solid darkblue;
+transition: 1s;
+}                                
