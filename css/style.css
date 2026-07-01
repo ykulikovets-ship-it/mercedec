@@ -369,7 +369,7 @@ footer {
 
 .loyer a {
     color: blue;
-    display: flex;      
+    display: flex;
     justify-content: center;
     border-top: 1px solid grey;
     padding: 5px;
@@ -380,7 +380,7 @@ footer {
     color: blue;
     display: flex;
     justify-content: center;
-     border-top: 1px solid grey;
+    border-top: 1px solid grey;
     padding: 5px;
 }
 
@@ -396,7 +396,7 @@ footer {
     color: blue;
     display: flex;
     justify-content: center;
-       border-top: 1px solid grey;
+    border-top: 1px solid grey;
     padding: 5px;
 }
 
@@ -435,10 +435,6 @@ footer {
 
 .ere {
     color: rgb(83, 80, 80);
-}
-
-.gut {
-    margin: 13px;
 }
 
 .yut {
@@ -520,28 +516,40 @@ footer h3 {
 footer ul {
     padding: 50px;
 }
+
 footer li {
- padding: 5px;
+    padding: 5px;
 }
+
 .vovo {
- border: 0.01 solid grey;
-}    
+    border: 0.01 solid grey;
+}
+
 .huk {
     color: #0078d6;
     font-size: 20px;
-}        
+}
+
 .kol a:hover {
     color: #0078d6;
-}       
-.tutu a:hover{
-background-color: darkblue;
-border:  1px solid darkblue;
-transition: 1s;
-}             
+}
+
+.tutu a:hover {
+    background-color: darkblue;
+    border: 1px solid darkblue;
+    transition: 1s;
+}
+
 .gggg {
     border: 1px solid grey;
     border-radius: 10%;
-}  
+}
+
 .gggg img {
-    border-radius: 12% ;
-}                 
+    border-radius: 12%;
+}
+
+footer h3 {
+    padding: 50px;
+
+}
