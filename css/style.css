@@ -402,7 +402,7 @@ footer {
 
 .about h2 {
     font-size: 45px;
-    padding: 10px;
+    padding:  30px 60px;
 }
 
 .ere {
@@ -437,16 +437,14 @@ footer {
     color: rgb(83, 80, 80);
 }
 
-.yut {
-    margin: 13px;
-}
-
 .red:hover {
     background-color: darkblue;
     border: 1px solid darkblue;
     transition: 1s;
 }
-
+.yut {
+    padding: 20px;
+}
 .text {
     margin: 13px;
 }
