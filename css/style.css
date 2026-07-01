@@ -336,6 +336,7 @@ footer {
 .tery {
     border: 1px solid grey;
     max-width: 350px;
+    border-radius: 10%;
 }
 
 .jojo {
@@ -363,68 +364,40 @@ footer {
 
 .loyer a {
     color: blue;
-    border: 1px solid grey;
     padding: 1px;
-}
-
-.loyer a:hover {
-    color: #fff;
-    border: 1px solid blue;
-    background-color: blue;
 }
 
 .loyer a {
     color: blue;
-    border: 1px solid grey;
-    padding: 1px;
-    display: flex;
+    display: flex;      
     justify-content: center;
+    border-top: 1px solid grey;
+    padding: 5px;
 }
 
-.koko a:hover {
-    color: #fff;
-    border: 1px solid blue;
-    background-color: blue;
-}
 
 .koko a {
-    border: 1px solid grey;
     color: blue;
     display: flex;
     justify-content: center;
-    padding: 1px;
+     border-top: 1px solid grey;
+    padding: 5px;
 }
 
 .wesy a {
-    border: 1px solid grey;
     color: blue;
     display: flex;
     justify-content: center;
-    padding: 1px;
-
-}
-
-.wesy a:hover {
-    border: 1px solid blue;
-    color: #fff;
-    padding: 1px;
-    background-color: blue;
-
+    border-top: 1px solid grey;
+    padding: 5px;
 }
 
 .yupy a {
-    border: 1px solid grey;
     color: blue;
     display: flex;
     justify-content: center;
-    padding: 1px;
-}
-
-.yupy a:hover {
-    border: 1px solid blue;
-    color: #fff;
-    padding: 1px;
-    background-color: blue;
+       border-top: 1px solid grey;
+    padding: 5px;
 }
 
 .about h2 {
@@ -564,4 +537,11 @@ footer li {
 background-color: darkblue;
 border:  1px solid darkblue;
 transition: 1s;
-}                                
+}             
+.gggg {
+    border: 1px solid grey;
+    border-radius: 10%;
+}  
+.gggg img {
+    border-radius: 12% ;
+}                 
