@@ -504,6 +504,7 @@ h3 {
 
 .vovo a {
     color: #0078d6;
+    border-top:1px solid grey;
 }
 
 footer h3 {
@@ -550,4 +551,10 @@ footer li {
 footer h3 {
     padding: 50px;
 
+}
+.gggg p {
+    padding:4px;
+}
+.about h2 {
+    padding: 43px 70px;
 }
